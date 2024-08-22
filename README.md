@@ -42,7 +42,7 @@ Key features of the script include:
 
 ------------
 
-:exclamation: **FOUND BWLOW ISSUES AND GIVEN ABOVE SOLUTION**
+:exclamation: **FOUND BELOW ISSUES AND GIVEN ABOVE SOLUTION**
 
 [[ISSUE] Does anyone know how to hide the video title while playing the course videos on Udemy? The bottom bar disappears after some time but not the title bar.](https://www.reddit.com/r/Udemy/comments/dw7dc2/issue_does_anyone_know_how_to_hide_the_video/ "[ISSUE] Does anyone know how to hide the video title while playing the course videos on Udemy? The bottom bar disappears after some time but not the title bar.")
 
