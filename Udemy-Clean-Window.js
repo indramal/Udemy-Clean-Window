@@ -5,6 +5,9 @@
 // @description  Adds a toggle button to hide certain elements on Udemy course pages and adjusts max-height of specific element
 // @author       iNdra 
 // @match        https://www.udemy.com/course/*
+// @downloadURL  https://github.com/indramal/Udemy-Clean-Window/blob/main/Udemy-Clean-Window.js
+// @updateURL    https://github.com/indramal/Udemy-Clean-Window/blob/main/Udemy-Clean-Window.js
+// @homepageURL  https://github.com/indramal/Udemy-Clean-Window/
 // @grant        none
 // ==/UserScript==
 
