@@ -19,6 +19,9 @@ Key features of the script include:
 - Step 1: Install browser extension that can run JS files. Example: [Orange Monkey Pro for Chrome Browser](https://chromewebstore.google.com/detail/orangemonkey-pro/ggdmdoodcfamjggeigifpjfnnjfbland?hl=en "Orange Monkey Pro for Chrome")
 - Step 2: Download https://github.com/indramal/Udemy-Clean-Window/blob/main/Udemy-Clean-Window.js file and add it to extension. 
 
+![Extension](https://github.com/indramal/Udemy-Clean-Window/blob/main/OrangeMonkeyExtension2.PNG)
+![Extension](https://github.com/indramal/Udemy-Clean-Window/blob/main/OrangeMonkeyExtension1.PNG)
+
 ------------
 
 ### Before:
