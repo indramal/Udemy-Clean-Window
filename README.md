@@ -13,7 +13,7 @@ Key features of the script include:
 
 > [!TIP]
 > This button is **toggle** button, so can hide or show video player control bar and title bar.
-> Keyboard arrow keys can be used to forward and backwards the video and also volume up and down
+> Keyboard arrow keys can be used to forward and backwards the video and also volume up and down.
 > Mouse can be used to Play and Push the video.
 
 ## Install:
@@ -42,7 +42,7 @@ Key features of the script include:
 
 ------------
 
-:exclamation: **FOUND ISSUES**
+:exclamation: **FOUND BWLOW ISSUES AND GIVEN ABOVE SOLUTION**
 
 [[ISSUE] Does anyone know how to hide the video title while playing the course videos on Udemy? The bottom bar disappears after some time but not the title bar.](https://www.reddit.com/r/Udemy/comments/dw7dc2/issue_does_anyone_know_how_to_hide_the_video/ "[ISSUE] Does anyone know how to hide the video title while playing the course videos on Udemy? The bottom bar disappears after some time but not the title bar.")
 
