@@ -1,4 +1,4 @@
-# Udemy Clean Window
+# Udemy Clean Window :books: :computer: :mortar_board: :trophy: :fire:
 
 I developed a simple script designed to enhance the Udemy viewing experience. When you install this, it can see **"Clean window"** button after/below video in left side.
 
@@ -19,11 +19,11 @@ Key features of the script include:
 
 ------------
 
-Before:
+### Before:
 
 ![Before Clean Window.](https://github.com/indramal/Udemy-Clean-Window/blob/main/beforeclean.PNG)
 
-After: 
+### After: 
 
 ![After Clean Window.](https://github.com/indramal/Udemy-Clean-Window/blob/main/afterclean.PNG)
 
@@ -34,7 +34,7 @@ After:
 
 ------------
 
-**ISSUES**
+:exclamation: **ISSUES**
 
 [[ISSUE] Does anyone know how to hide the video title while playing the course videos on Udemy? The bottom bar disappears after some time but not the title bar.](https://www.reddit.com/r/Udemy/comments/dw7dc2/issue_does_anyone_know_how_to_hide_the_video/ "[ISSUE] Does anyone know how to hide the video title while playing the course videos on Udemy? The bottom bar disappears after some time but not the title bar.")
 
