@@ -4,8 +4,8 @@ This will clean your window for better learning from Udemy.  When you install th
 
 This will do,
 - Side bar close
-- Remove video player control bar
-- Remove title bar and shadow
+- Hide video player control bar
+- Hide title bar and shadow
 - Adjust video to window size (not full screen mode)
 - Scroll to video position
 
