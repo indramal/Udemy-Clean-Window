@@ -6,7 +6,7 @@ This will do,
 - Side bar close
 - Remove video player control bar
 - Remove title bar and shadow
-- Adjust video to screen size (not full screen mode)
+- Adjust video to window size (not full screen mode)
 - Scroll to video position
 
 > [!TIP]
