@@ -1,5 +1,8 @@
 # Udemy Clean Window :books: :computer: :mortar_board: :trophy: :fire:
 
+[![GitHub stars](https://img.shields.io/github/stars/indramal/Udemy-Clean-Window?style=social)](https://github.com/indramal/Udemy-Clean-Window/stargazers)
+[![Follow on GitHub](https://img.shields.io/github/followers/indramal?label=Follow&style=social)](https://github.com/indramal)
+
 I developed a simple script designed to enhance the Udemy viewing experience. When you install this, it can see **"Clean window"** button after/below video in left side.
 
 Key features of the script include:
