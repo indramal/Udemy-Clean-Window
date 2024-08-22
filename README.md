@@ -1,13 +1,13 @@
 # Udemy Clean Window
 
-This will clean your window for better learning from Udemy.  When you install this, it can see **"Clean window"** button after/below video in left side.
+I developed a simple script designed to enhance the Udemy viewing experience. When you install this, it can see **"Clean window"** button after/below video in left side.
 
-This will do,
-- Side bar close
-- Hide video player control bar
-- Hide title bar and shadow
-- Adjust video to window size (not full screen mode)
-- Scroll to video position
+Key features of the script include:
+- Closing the sidebar
+- Toggling the video player control bar (hide/show)
+- Toggling the title bar and shadow (hide/show)
+- Adjusting the video to fit the window size (not full screen)
+- Automatically scrolling to the video position
 
 > [!TIP]
 > Please note that this button is **toggle** button, so can hide or show video player control bar and title bar.
