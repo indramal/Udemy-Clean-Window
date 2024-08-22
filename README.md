@@ -42,6 +42,10 @@ After:
 
 [FIX THE MEDIA PLAY/PAUSE BUTTONS ALREADY](https://www.reddit.com/r/Udemy/comments/jc0qmy/fix_the_media_playpause_buttons_already/ "FIX THE MEDIA PLAY/PAUSE BUTTONS ALREADY")
 
+[A work around Udemy UI Not Hiding When Using Full Screen](https://www.reddit.com/r/Udemy/comments/1e3r4mg/a_work_around_udemy_ui_not_hiding_when_using_full/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+
+[UI Not Hiding When Using Full Screen](https://www.reddit.com/r/Udemy/comments/1csqa7i/comment/lelvxim/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+
 ------------
 
 #udemy #udemytitlebar #udemyplayerbar #udemyfullscreen
