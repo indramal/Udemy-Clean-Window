@@ -81,7 +81,7 @@
 
         // Toggle the shaka-control-bar element
         const shakaElement = document.querySelector(
-          '.shaka-control-bar-module--control-bar-container--xTkMB',
+          '.shaka-control-bar--control-bar-container--OfnMI',
         );
         if (shakaElement) {
           shakaElement.style.visibility = visibility;
