@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Udemy Clean Window
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Adds a toggle button to hide certain elements on Udemy course pages and adjusts max-height of specific element
 // @author       iNdra
 // @match        https://www.udemy.com/course/*
@@ -23,8 +23,9 @@
 
     if (targetElement) {
       // Create the toggle button
+      const buttonCleanText = 'Clean Window';
       const toggleButton = document.createElement('button');
-      toggleButton.innerText = 'Clean Window';
+      toggleButton.innerText = buttonCleanText;
 
       // Style the button
       toggleButton.style.backgroundColor = '#3498db';
@@ -53,44 +54,59 @@
           console.log(window.scrollY);
         }
 
+        let visibility = 'hidden';
+        const videoTitleElement = document.querySelector(
+          '.video-viewer--title-overlay--YZQuH',
+        );
+        // If the video title is hidden, restore elements visibility and open course content sidebar
+        const shouldRestoreVisibility =
+          videoTitleElement?.style.visibility === 'hidden';
+
         // Select the button with the data-purpose attribute
-        const specifiedButton = document.querySelector(
+        let openOrCloseSidebarButton = document.querySelector(
           '[data-purpose="sidebar-button-close"]',
         );
 
-        if (specifiedButton) {
-          specifiedButton.click(); // Programmatically click the button
+        if (shouldRestoreVisibility) {
+          toggleButton.textContent = buttonCleanText;
+          visibility = 'visible';
+          openOrCloseSidebarButton = document.querySelector(
+            '[data-purpose="open-course-content"]',
+          );
+        } else {
+          toggleButton.textContent = 'Restore Window';
         }
+
+        openOrCloseSidebarButton?.click(); // Programmatically click the button
 
         // Toggle the shaka-control-bar element
         const shakaElement = document.querySelector(
-          '.shaka-control-bar--control-bar-container--OfnMI',
+          '.shaka-control-bar-module--control-bar-container--xTkMB',
         );
         if (shakaElement) {
-          const currentVisibility = shakaElement.style.visibility;
-          shakaElement.style.visibility =
-            currentVisibility === 'hidden' ? 'visible' : 'hidden';
+          shakaElement.style.visibility = visibility;
         }
 
-        // Toggle the video-viewer-title-overlay element
-        const videoTitleElement = document.querySelector(
+        // Toggle the video-viewer--header-gradient element
+        const shadowbarElement = document.querySelector(
           '.video-viewer--header-gradient--x4Zw0',
         );
-        if (videoTitleElement) {
-          const currentVisibility = videoTitleElement.style.visibility;
-          videoTitleElement.style.visibility =
-            currentVisibility === 'hidden' ? 'visible' : 'hidden';
+        if (shadowbarElement) {
+          shadowbarElement.style.visibility = visibility;
         }
 
-        // Toggle the video-viewer-title-overlay element
-        const shadowbar = document.querySelector(
-          '.video-viewer--title-overlay--YZQuH',
-        );
-        if (shadowbar) {
-          const currentVisibility = shadowbar.style.visibility;
-          shadowbar.style.visibility =
-            currentVisibility === 'hidden' ? 'visible' : 'hidden';
+        // Toggle the video-viewer--title-overlay element
+        if (videoTitleElement) {
+          videoTitleElement.style.visibility = visibility;
         }
+
+        // Toggle the next-and-previous--container elements
+        const nextAndPreviousElements = document.querySelectorAll(
+          '.next-and-previous--container--kZxyo',
+        );
+        nextAndPreviousElements.forEach(function (element) {
+          element.style.visibility = visibility;
+        });
 
         const curriculumElements = document.querySelectorAll(
           '.curriculum-item-view--scaled-height-limiter--lEOjL.curriculum-item-view--no-sidebar--LGmz-',
