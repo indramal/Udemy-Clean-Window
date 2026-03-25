@@ -5,6 +5,7 @@
 I developed a simple script designed to enhance the Udemy viewing experience. When you install this, it can see **"Clean window"** button after/below video in left side.
 
 Key features of the script include:
+
 - Closing/opening the sidebar
 - Toggling the video player control bar (hide/show)
 - Toggling the title bar and shadow (hide/show)
@@ -24,25 +25,25 @@ Key features of the script include:
 - Step 2: Download https://github.com/indramal/Udemy-Clean-Window/blob/main/Udemy-Clean-Window.js file and add it to extension.
 - Step 3: Go to the Udemy Course page and refresh. Now you can see a button. (below left side)
 
-![Extension](https://github.com/indramal/Udemy-Clean-Window/blob/main/OrangeMonkeyExtension2.PNG)
-![Extension](https://github.com/indramal/Udemy-Clean-Window/blob/main/OrangeMonkeyExtension1.PNG)
+![Extension](/images/OrangeMonkeyExtension2.png)
+![Extension](/images/OrangeMonkeyExtension1.png)
 
-------------
+---
 
 ### Before:
 
-![Before Clean Window.](https://github.com/indramal/Udemy-Clean-Window/blob/main/beforeclean.PNG)
+![Before Clean Window.](/images/before-clean.png)
 
 ### After: Clean viewing experience
 
-![After Clean Window.](https://github.com/indramal/Udemy-Clean-Window/blob/main/afterclean.PNG)
+![After Clean Window.](/images/after-clean.png)
 
-------------
+---
 
 > [!IMPORTANT]
 > Send me your suggestions.
 
-------------
+---
 
 :exclamation: **FOUND BELOW ISSUES AND GIVEN ABOVE SOLUTION**
 
@@ -56,6 +57,6 @@ Key features of the script include:
 
 [UI Not Hiding When Using Full Screen](https://www.reddit.com/r/Udemy/comments/1csqa7i/comment/lelvxim/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
-------------
+---
 
 #udemy #udemytitlebar #udemyplayerbar #udemyfullscreen
