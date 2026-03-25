@@ -5,14 +5,16 @@
 I developed a simple script designed to enhance the Udemy viewing experience. When you install this, it can see **"Clean window"** button after/below video in left side.
 
 Key features of the script include:
-- Closing the sidebar
+- Closing/opening the sidebar
 - Toggling the video player control bar (hide/show)
 - Toggling the title bar and shadow (hide/show)
+- Toggling the next and previous buttons (hide/show)
 - Adjusting the video to fit the window size (not full screen)
 - Automatically scrolling to the video position
 
 > [!TIP]
-> This button is **toggle** button, so can hide or show video player control bar and title bar.
+> This button is **toggle** button, so can hide or show video player control bar, title bar and
+> next/previous buttons.
 > Keyboard arrow keys can be used to forward and backwards the video and also volume up and down.
 > Mouse can be used to Play and Push the video.
 
@@ -38,7 +40,7 @@ Key features of the script include:
 ------------
 
 > [!IMPORTANT]
-> Send me your suggestions. 
+> Send me your suggestions.
 
 ------------
 
