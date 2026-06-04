@@ -80,9 +80,13 @@
         openOrCloseSidebarButton?.click(); // Programmatically click the button
 
         // Toggle the shaka-control-bar element
+        // const shakaElement = document.querySelector( // Old Code
+        //   '.shaka-control-bar--control-bar-container--OfnMI',
+        // );
         const shakaElement = document.querySelector(
-          '.shaka-control-bar--control-bar-container--OfnMI',
+          '[class*="shaka-control-bar-module--control-bar-container"]',
         );
+         
         if (shakaElement) {
           shakaElement.style.visibility = visibility;
         }
